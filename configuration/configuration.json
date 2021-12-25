@@ -1,0 +1,78 @@
+{
+  "colors": {
+    "neutral": "#1BFEBD",
+    "error": "#F04848",
+    "success": "#00FF75"
+  },
+  "guild": {
+    "guildID": "",
+    "staffID": "",
+    "logChannelID": "",
+    "suggestionsID": "",
+    "reportChannelID": ""
+  },
+  "tickets": {
+    "supportCategoryID": "",
+    "supportRoleID": "",
+    "newTicketEmbed": "Welcome, thank you for opening a ticket. Our Support Team will be with you shortly. Meanwhile, please provide us with any information that may help us.",
+    "ticketPanelEmbed": "Welcome to our Support & Report Center! This ticket system is currently in beta, feel free to message Spuka for any information!\n\n**Abusing the Ticket System Can Result in a 7 Day Ban** <a:error:921123668791296051>",
+    "onlySupportCanAdd": "true",
+    "onlySupportCanClose": "true",
+    "pingSupportOnOpen": "true",
+    "useNumberedTickets": "true",
+    "ticketCategories": {
+      "enabled": "true",
+      "categories": [
+        {
+          "displayName": "Report User",
+          "categoryDescription": "Report a User for Breaking the Rules",
+          "categoryEmoji": "🏁",
+          "value": "first_option"
+        },
+        {
+          "displayName": "Product Support",
+          "categoryDescription": "For Getting Support with a Product",
+          "categoryEmoji": "🎁",
+          "value": "second_option"
+        },
+        {
+          "displayName": "Other",
+          "categoryDescription": "If your Support Category isn't Listed",
+          "categoryEmoji": "🗑",
+          "value": "third_option"
+        }
+      ]
+    },
+    "waitingCategorySwap": {
+      "enabled": "false",
+      "categoryId": ""
+    },
+    "pingOnMessage": {
+      "pingSupport": "false",
+      "pingUser": "false",
+      "pingOnce": "true"
+    }
+  },
+  "activityCycle": {
+    "activities": [
+      {
+        "type": "WATCHING",
+        "content": "over {0} tickets", 
+        "placeholder": "tickets_total"
+      },
+      {
+        "type": "WATCHING", 
+        "content": "over {0} online users", 
+        "placeholder": "users_online"
+      },
+      {
+        "type": "WATCHING", 
+        "content": "over {0} total users", 
+        "placeholder": "users_total"
+      }
+    ],
+    "presence": "dnd",
+    "interval": "5000", 
+    "randomOrder": "true" 
+  }
+}
